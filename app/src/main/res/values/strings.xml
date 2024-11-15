@@ -2,4 +2,11 @@
     <string name="app_name">Hello World</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="mail">Mail</string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="inscription">Inscription</string>
+    <string name="connexion">Connexion</string>
 </resources>

@@ -21,7 +21,8 @@
             android:text="Identifiant"
             android:textColor="@color/black"
             tools:layout_editor_absoluteX="174dp"
-            tools:layout_editor_absoluteY="311dp" />
+            tools:layout_editor_absoluteY="311dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/Confirmer"
@@ -45,10 +46,11 @@
 
             android:layout_width="151dp"
             android:layout_height="141dp"
-            android:contentDescription="@string/logoandroid_"
+            android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
             tools:layout_editor_absoluteX="130dp"
-            tools:layout_editor_absoluteY="105dp" />
+            tools:layout_editor_absoluteY="105dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/Identifiant"
@@ -57,7 +59,8 @@
             android:ems="10"
             android:inputType="textPassword"
             tools:layout_editor_absoluteX="101dp"
-            tools:layout_editor_absoluteY="343dp" />
+            tools:layout_editor_absoluteY="343dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/Password"
@@ -66,7 +69,8 @@
             android:ems="10"
             android:inputType="textPassword"
             tools:layout_editor_absoluteX="101dp"
-            tools:layout_editor_absoluteY="430dp" />
+            tools:layout_editor_absoluteY="430dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/text_Password"
@@ -75,7 +79,8 @@
             android:text="Mot de passe"
             android:textColor="@color/black"
             tools:layout_editor_absoluteX="163dp"
-            tools:layout_editor_absoluteY="401dp" />
+            tools:layout_editor_absoluteY="401dp"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
