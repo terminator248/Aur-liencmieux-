@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Inscription"
+    tools:ignore="ExtraText">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/Prénom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prénom"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="147dp" />
+
+        <TextView
+            android:id="@+id/Nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="147dp" />
+
+        <TextView
+            android:id="@+id/Mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+        <EditText
+            android:id="@+id/rMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="279dp" />
+
+        <EditText
+            android:id="@+id/rPrénom"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="237dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <EditText
+            android:id="@+id/rNom"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+
+        <TextView
+            android:id="@+id/Motdepasse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+        <Button
+            android:id="@+id/Confirmer"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="628dp"
+            android:background="#FF6200EE"
+            android:padding="10dp"
+            android:text="Confirmer"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="NotSibling" />
+
+        <ImageView
+
+            android:layout_width="118dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/LogoAndroid_"
+            android:src="@drawable/LogoAndroid"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <EditText
+            android:id="@+id/rMdp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="375dp" />
+
+        <EditText
+            android:id="@+id/rMdp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="469dp" />
+
+        <TextView
+            android:id="@+id/confirmerMotdepasse2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmer le mot de passe"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+        <Button
+            android:id="@+id/buttonCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Importer le CV"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="547dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
