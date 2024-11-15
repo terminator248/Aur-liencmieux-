@@ -51,6 +51,15 @@
             tools:layout_editor_absoluteX="100dp"
             tools:layout_editor_absoluteY="279dp" />
 
+        <ImageView
+
+            android:layout_width="151dp"
+            android:layout_height="141dp"
+            android:contentDescription="@string/logoandroid_"
+            android:src="@drawable/logoandroid"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="105dp" />
+
         <EditText
             android:id="@+id/rPrénom"
             android:layout_width="150dp"
@@ -95,15 +104,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="NotSibling" />
-
-        <ImageView
-
-            android:layout_width="118dp"
-            android:layout_height="100dp"
-            android:contentDescription="@string/LogoAndroid_"
-            android:src="@drawable/LogoAndroid"
-            tools:layout_editor_absoluteX="146dp"
-            tools:layout_editor_absoluteY="25dp" />
 
         <EditText
             android:id="@+id/rMdp1"

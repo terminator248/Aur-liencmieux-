@@ -45,8 +45,8 @@
 
             android:layout_width="151dp"
             android:layout_height="141dp"
-            android:contentDescription="@string/LogoAndroid_"
-            android:src="@drawable/LogoAndroid"
+            android:contentDescription="@string/logoandroid_"
+            android:src="@drawable/logoandroid"
             tools:layout_editor_absoluteX="130dp"
             tools:layout_editor_absoluteY="105dp" />
 
