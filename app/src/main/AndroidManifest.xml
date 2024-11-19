@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".accueil"/>
+        <activity android:name=".Connexion"/>
+        <activity android:name=".Inscription"/>
     </application>
 
 </manifest>

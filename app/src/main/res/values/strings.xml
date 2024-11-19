@@ -1,13 +1,18 @@
 <resources>
     <string name="app_name">Hello World</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="confirmer">Confirmer</string>
-    <string name="mot_de_passe">Mot de passe</string>
-    <string name="mail">Mail</string>
-    <string name="nom">Nom</string>
-    <string name="pr_nom">Prénom</string>
-    <string name="inscription">Inscription</string>
-    <string name="connexion">Connexion</string>
-    <string name="accueil" />
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="confirmer" translatable="false">Confirmer</string>
+    <string name="mot_de_passe" translatable="false">Mot de passe</string>
+    <string name="mail" translatable="false">Mail</string>
+    <string name="nom" translatable="false">Nom</string>
+    <string name="pr_nom" translatable="false">Prénom</string>
+    <string name="inscription" translatable="false">Inscription</string>
+    <string name="connexion" translatable="false">Connexion</string>
+    <string name="accueil" translatable="false" />
+    <string name="lancement_application" translatable="false">Lancement de l Application</string>
+    <string name="importer_le_cv" translatable="false">Importer le CV</string>
+    <string name="nouveau_mot_de_passe" translatable="false">mot de passe</string>
+    <string name="nouveau_nom" translatable="false">nom</string>
+    <string name="confirmation_mot_de_passe" translatable="false">mot de passe</string>
 </resources>
