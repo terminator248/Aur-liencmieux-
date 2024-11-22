@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="32dp"
+            android:layout_height="22dp"
+            android:text="Nom"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="54dp"
+            android:layout_height="23dp"
+            android:text="Prénom"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="35dp"
+            android:layout_height="24dp"
+            android:text="Mail"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="419dp" />
+
+        <TextView
+            android:id="@+id/cv"
+            android:layout_width="106dp"
+            android:layout_height="21dp"
+            android:text="Visualiser le CV"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="527dp" />
+
+        <ImageView
+            android:id="@+id/imagelogo"
+            android:layout_width="98dp"
+            android:layout_height="87dp"
+            android:contentDescription="@drawable/logoandroid"
+            android:src="@drawable/logoandroid"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <Button
+            android:id="@+id/bouton_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bouton_rond"
+            android:text="Profil"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
