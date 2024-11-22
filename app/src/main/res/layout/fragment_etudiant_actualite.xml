@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etudiant_actualite">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/confirmer3"
+            android:layout_width="157dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6200EE"
+            android:padding="10dp"
+            android:text="Accueil"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="-5dp" />
+
+        <Button
+            android:id="@+id/Confirmer"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6200EE"
+            android:padding="10dp"
+            android:text="Actualité 2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="394dp" />
+
+        <Button
+            android:id="@+id/publier"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6200EE"
+            android:padding="10dp"
+            android:text="Actualité 4"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds,HardcodedText,InvalidId,MissingConstraints,NotSibling"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="597dp" />
+
+        <Button
+            android:id="@+id/confirmer"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6200EE"
+            android:padding="10dp"
+            android:text="Actualité 3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <Button
+            android:id="@+id/confirmer2"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6200EE"
+            android:padding="10dp"
+            android:text="Actualité 1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="299dp" />
+
+        <ImageView
+
+            android:layout_width="151dp"
+            android:layout_height="141dp"
+            android:contentDescription="@drawable/logoandroid"
+            android:src="@drawable/logoandroid"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="-6dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</FrameLayout>
