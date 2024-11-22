@@ -22,7 +22,7 @@
             android:textColor="@color/black"
             tools:layout_editor_absoluteX="174dp"
             tools:layout_editor_absoluteY="311dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/Confirmer"
@@ -38,7 +38,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="NotSibling" />
+            tools:ignore="HardcodedText,NotSibling" />
 
 
         <ImageView
@@ -52,24 +52,26 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/Identifiant"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/identifiant"
+            android:layout_width="223dp"
+            android:layout_height="52dp"
             android:ems="10"
+            android:hint="identifiant"
             android:inputType="textPassword"
-            tools:layout_editor_absoluteX="101dp"
-            tools:layout_editor_absoluteY="343dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="339dp" />
 
         <EditText
-            android:id="@+id/Password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_width="232dp"
+            android:layout_height="59dp"
             android:ems="10"
+            android:hint="@string/mot_de_passe"
             android:inputType="textPassword"
-            tools:layout_editor_absoluteX="101dp"
-            tools:layout_editor_absoluteY="430dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="439dp" />
 
         <TextView
             android:id="@+id/text_Password"
@@ -79,7 +81,7 @@
             android:textColor="@color/black"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="401dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="HardcodedText,MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

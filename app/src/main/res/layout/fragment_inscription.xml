@@ -62,7 +62,7 @@
             android:textColor="@color/black"
             tools:layout_editor_absoluteX="123dp"
             tools:layout_editor_absoluteY="442dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <EditText
             android:id="@+id/editmail"
@@ -70,7 +70,7 @@
             android:layout_height="50dp"
             android:ems="10"
             android:hint="adresse@mail.XXX"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="102dp"
             tools:layout_editor_absoluteY="279dp" />
 
@@ -82,7 +82,7 @@
             android:hint="prénom"
             tools:layout_editor_absoluteX="237dp"
             tools:layout_editor_absoluteY="177dp"
-            tools:ignore="MissingConstraints"/>
+            tools:ignore="HardcodedText,MissingConstraints"/>
 
         <EditText
             android:id="@+id/editnom"

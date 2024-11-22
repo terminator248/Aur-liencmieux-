@@ -15,7 +15,7 @@
     <string name="nouveau_mot_de_passe" translatable="false">mot de passe</string>
     <string name="nouveau_nom" translatable="false">nom</string>
     <string name="confirmation_mot_de_passe" translatable="false">mot de passe</string>
-    <string name="Présentation_de_la_junior" />
-    <string name="pr_sentation_de_la_junior">Présentation de la junior</string>
-    <string name="presentation_de_la_junior" />
+    <string name="Présentation_de_la_junior" translatable="false" />
+    <string name="pr_sentation_de_la_junior" translatable="false">Présentation de la junior</string>
+    <string name="presentation_de_la_junior" translatable="false" />
 </resources>

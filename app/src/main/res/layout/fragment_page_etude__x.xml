@@ -17,7 +17,7 @@
             android:layout_height="22dp"
             android:text="Titre de l'étude"
             android:textColor="@color/black"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="159dp"
             tools:layout_editor_absoluteY="233dp" />
 
@@ -27,7 +27,7 @@
             android:layout_height="24dp"
             android:text="Description"
             android:textColor="@color/black"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="337dp" />
 
@@ -37,7 +37,7 @@
             android:layout_height="59dp"
             android:text="Postuler"
             android:textColor="#FFFFFF"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="76dp"
             tools:layout_editor_absoluteY="514dp" />
 
@@ -59,7 +59,7 @@
             android:text="Profil"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="279dp"
             tools:layout_editor_absoluteY="46dp" />
 

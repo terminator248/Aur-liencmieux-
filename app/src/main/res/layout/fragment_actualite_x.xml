@@ -18,7 +18,7 @@
             android:text="Profil"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="282dp"
             tools:layout_editor_absoluteY="50dp" />
 
@@ -38,7 +38,7 @@
             android:layout_height="23dp"
             android:text="Titre de l'actualité"
             android:textColor="@color/black"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="146dp"
             tools:layout_editor_absoluteY="303dp" />
 
@@ -48,7 +48,7 @@
             android:layout_height="19dp"
             android:text="Texte"
             android:textColor="@color/black"
-            tools:ignore="MissingConstraints"
+            tools:ignore="HardcodedText,MissingConstraints"
             tools:layout_editor_absoluteX="187dp"
             tools:layout_editor_absoluteY="396dp" />
 
