@@ -15,7 +15,6 @@ public class accueil extends AppCompatActivity {
         setContentView(R.layout.fragment_accueil);
 
         Button BntConnexion = findViewById(R.id.bntconnexion);
-        Button BntInscription = findViewById(R.id.bntinscription);
         BntConnexion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -23,7 +22,7 @@ public class accueil extends AppCompatActivity {
                 startActivity(startConnexionActivity);
             }
         });
-
+        Button BntInscription = findViewById(R.id.bntinscription);
         BntInscription.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

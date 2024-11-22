@@ -19,6 +19,15 @@
         <activity android:name=".accueil"/>
         <activity android:name=".Connexion"/>
         <activity android:name=".Inscription"/>
+        <activity android:name=".Admin_actualite"/>
+        <activity android:name=".Admin_etude_en_cours"/>
+        <activity android:name=".Admin_etude_poste"/>
+        <activity android:name=".admin_etude"/>
+        <activity android:name=".admin_quizz"/>
+        <activity android:name=".etude_en_cours_etudiant"/>
+        <activity android:name=".etudiant_actualite"/>
+        <activity android:name=".etudiant_etude"/>
+
     </application>
 
 </manifest>
