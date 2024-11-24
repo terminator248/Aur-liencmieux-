@@ -39,19 +39,30 @@
             android:text="Titre de l'actualité"
             android:textColor="@color/black"
             tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="146dp"
-            tools:layout_editor_absoluteY="303dp" />
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="251dp" />
 
         <TextView
             android:id="@+id/texte"
-            android:layout_width="37dp"
-            android:layout_height="19dp"
+            android:layout_width="310dp"
+            android:layout_height="224dp"
             android:text="Texte"
             android:textColor="@color/black"
             tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="187dp"
-            tools:layout_editor_absoluteY="396dp" />
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="334dp" />
 
+        <Button
+            android:id="@+id/publication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bouton_rond"
+            android:text="Publier"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="606dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

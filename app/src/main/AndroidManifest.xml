@@ -27,6 +27,11 @@
         <activity android:name=".etude_en_cours_etudiant"/>
         <activity android:name=".etudiant_actualite"/>
         <activity android:name=".etudiant_etude"/>
+        <activity android:name=".actualite_x"/>
+        <activity android:name=".Administrateur"/>
+        <activity android:name=".Etudiant"/>
+        <activity android:name=".Page_etude_X"/>
+        <activity android:name=".profil"/>
 
     </application>
 

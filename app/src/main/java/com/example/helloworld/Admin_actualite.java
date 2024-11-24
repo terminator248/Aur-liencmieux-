@@ -28,6 +28,38 @@ public class Admin_actualite extends AppCompatActivity {
                 startActivity(startConnexionActivity);
             }
         });
+        Button BntActu1 = findViewById(R.id.confirmer2);
+        BntAccueil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startConnexionActivity = new Intent(Admin_actualite.this, actualite_x.class);
+                startActivity(startConnexionActivity);
+            }
+        });
+        Button BntActu2 = findViewById(R.id.Confirmer);
+        BntAccueil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startConnexionActivity = new Intent(Admin_actualite.this, actualite_x.class);
+                startActivity(startConnexionActivity);
+            }
+        });
+        Button BntActu3 = findViewById(R.id.confirmer);
+        BntAccueil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startConnexionActivity = new Intent(Admin_actualite.this, actualite_x.class);
+                startActivity(startConnexionActivity);
+            }
+        });
+        Button BntPublication = findViewById(R.id.publier);
+        BntAccueil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startConnexionActivity = new Intent(Admin_actualite.this, accueil.class);
+                startActivity(startConnexionActivity);
+            }
+        });
     }
 }
 
