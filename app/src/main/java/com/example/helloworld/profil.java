@@ -22,7 +22,7 @@ public class profil extends AppCompatActivity {
         BntAccueil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startConnexionActivity = new Intent(profil.this, accueil.class);
+                Intent startConnexionActivity = new Intent(profil.this, profil.class);
                 startActivity(startConnexionActivity);
             }
         });}

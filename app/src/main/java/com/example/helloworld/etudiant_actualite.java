@@ -17,11 +17,12 @@ public class etudiant_actualite extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_etudiant_actualite);
-        Button BntAccueil = findViewById(R.id.confirmer3);
-        BntAccueil.setOnClickListener(new View.OnClickListener() {
+
+        Button BntProfil = findViewById(R.id.bouton_profil);
+        BntProfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startConnexionActivity = new Intent(etudiant_actualite.this, accueil.class);
+                Intent startConnexionActivity = new Intent(etudiant_actualite.this, profil.class);
                 startActivity(startConnexionActivity);
             }
         });

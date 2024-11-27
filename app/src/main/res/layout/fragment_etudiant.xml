@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Etudiant">
 
     <!-- TODO: Update blank fragment layout -->
@@ -15,53 +16,67 @@
             android:id="@+id/actualites"
             android:layout_width="259dp"
             android:layout_height="59dp"
+            android:layout_marginTop="204dp"
             android:text="Actualités"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="76dp"
-            tools:layout_editor_absoluteY="237dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/etudes"
             android:layout_width="162dp"
             android:layout_height="48dp"
+            android:layout_marginTop="288dp"
             android:text="Etudes"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="124dp"
-            tools:layout_editor_absoluteY="341dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/vos_etudes"
             android:layout_width="156dp"
             android:layout_height="57dp"
+            android:layout_marginTop="572dp"
             android:text="Vos études"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="127dp"
-            tools:layout_editor_absoluteY="597dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <ImageView
             android:id="@+id/imagelogo"
             android:layout_width="98dp"
             android:layout_height="87dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="36dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/bouton_profil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:background="@drawable/bouton_rond"
             android:text="Profil"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="279dp"
-            tools:layout_editor_absoluteY="46dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.948"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

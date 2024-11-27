@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".etudiant_actualite">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,84 +14,98 @@
 
 
         <Button
-            android:id="@+id/confirmer3"
-            android:layout_width="157dp"
-            android:layout_height="110dp"
-            android:layout_centerHorizontal="true"
-            android:background="#FF6200EE"
-            android:padding="10dp"
-            android:text="Accueil"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="250dp"
-            tools:layout_editor_absoluteY="-5dp" />
-
-        <Button
-            android:id="@+id/Confirmer"
+            android:id="@+id/actualite2"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="404dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Actualité 2"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="394dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/publier"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="580dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Actualité 4"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="DuplicateIds,HardcodedText,InvalidId,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="597dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="DuplicateIds,HardcodedText,InvalidId,MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/confirmer"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="492dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Actualité 3"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="503dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/confirmer2"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="312dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Actualité 1"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="299dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <ImageView
 
             android:layout_width="151dp"
             android:layout_height="141dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="-1dp"
-            tools:layout_editor_absoluteY="-6dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bouton_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="284dp"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bouton_rond"
+            android:text="Profil"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

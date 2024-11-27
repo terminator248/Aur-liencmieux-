@@ -15,5 +15,13 @@ public class Connexion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_connexion);
 
+        Button BntConfirmer = findViewById(R.id.Confirmer);
+        BntConfirmer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startInscriptionActivity = new Intent(Connexion.this, Etudiant.class);
+                startActivity(startInscriptionActivity);
+            }
+        });
     }
 }

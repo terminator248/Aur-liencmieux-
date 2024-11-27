@@ -18,11 +18,12 @@ public class etude_en_cours_etudiant extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_etude_en_cours_etudiant);
-        Button BntAccueil = findViewById(R.id.confirmer3);
-        BntAccueil.setOnClickListener(new View.OnClickListener() {
+
+        Button BntProfil = findViewById(R.id.bouton_profil);
+        BntProfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startConnexionActivity = new Intent(etude_en_cours_etudiant.this, accueil.class);
+                Intent startConnexionActivity = new Intent(etude_en_cours_etudiant.this, profil.class);
                 startActivity(startConnexionActivity);
             }
         });

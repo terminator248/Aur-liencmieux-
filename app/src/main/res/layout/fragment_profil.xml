@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".profil">
 
     <!-- TODO: Update blank fragment layout -->
@@ -14,63 +15,81 @@
             android:id="@+id/nom"
             android:layout_width="32dp"
             android:layout_height="22dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="224dp"
             android:text="Nom"
             android:textColor="@color/black"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="188dp"
-            tools:layout_editor_absoluteY="219dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <TextView
             android:id="@+id/prenom"
             android:layout_width="54dp"
             android:layout_height="23dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="304dp"
             android:text="Prénom"
             android:textColor="@color/black"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="178dp"
-            tools:layout_editor_absoluteY="311dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <TextView
             android:id="@+id/mail"
             android:layout_width="35dp"
             android:layout_height="24dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="376dp"
             android:text="Mail"
             android:textColor="@color/black"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="188dp"
-            tools:layout_editor_absoluteY="419dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <TextView
             android:id="@+id/cv"
             android:layout_width="106dp"
             android:layout_height="21dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="468dp"
             android:text="Visualiser le CV"
             android:textColor="@color/black"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="152dp"
-            tools:layout_editor_absoluteY="527dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <ImageView
             android:id="@+id/imagelogo"
             android:layout_width="98dp"
             android:layout_height="87dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="36dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/bouton_profil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="244dp"
+            android:layout_marginLeft="244dp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/bouton_rond"
             android:text="Profil"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="282dp"
-            tools:layout_editor_absoluteY="50dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

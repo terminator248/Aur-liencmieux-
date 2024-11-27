@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Connexion"
-    tools:ignore="ExtraText">
+    tools:context=".Connexion">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -18,10 +17,12 @@
             android:id="@+id/text_Identifiant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
             android:text="Identifiant"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="174dp"
-            tools:layout_editor_absoluteY="311dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
@@ -42,45 +43,52 @@
 
 
         <ImageView
-
             android:layout_width="151dp"
             android:layout_height="141dp"
+            android:layout_marginTop="84dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:layout_editor_absoluteX="130dp"
-            tools:layout_editor_absoluteY="105dp"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/identifiant"
             android:layout_width="223dp"
             android:layout_height="52dp"
+            android:layout_marginTop="336dp"
             android:ems="10"
             android:hint="identifiant"
             android:inputType="textPassword"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="93dp"
-            tools:layout_editor_absoluteY="339dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="232dp"
             android:layout_height="59dp"
+            android:layout_marginTop="432dp"
             android:ems="10"
             android:hint="@string/mot_de_passe"
             android:inputType="textPassword"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="93dp"
-            tools:layout_editor_absoluteY="439dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/text_Password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="404dp"
             android:text="Mot de passe"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="163dp"
-            tools:layout_editor_absoluteY="401dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText,MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

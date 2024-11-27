@@ -18,135 +18,169 @@
             android:id="@+id/txtprenom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
             android:text="@string/pr_nom"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="147dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.795"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/txtnom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
             android:text="@string/nom"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="83dp"
-            tools:layout_editor_absoluteY="147dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/txtmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
             android:text="@string/mail"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="192dp"
-            tools:layout_editor_absoluteY="247dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/txtmotdepasse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="344dp"
             android:text="@string/mot_de_passe"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="163dp"
-            tools:layout_editor_absoluteY="347dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/txtconfirmermdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="448dp"
             android:text="Confirmer le mot de passe"
             android:textColor="@color/black"
-            tools:layout_editor_absoluteX="123dp"
-            tools:layout_editor_absoluteY="442dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText,MissingConstraints" />
 
         <EditText
             android:id="@+id/editmail"
             android:layout_width="208dp"
             android:layout_height="50dp"
+            android:layout_marginTop="284dp"
             android:ems="10"
             android:hint="adresse@mail.XXX"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="102dp"
-            tools:layout_editor_absoluteY="279dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <EditText
             android:id="@+id/editprenom"
             android:layout_width="150dp"
             android:layout_height="48dp"
+            android:layout_marginTop="184dp"
             android:ems="10"
             android:hint="prénom"
-            tools:layout_editor_absoluteX="237dp"
-            tools:layout_editor_absoluteY="177dp"
-            tools:ignore="HardcodedText,MissingConstraints"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <EditText
             android:id="@+id/editnom"
             android:layout_width="150dp"
             android:layout_height="48dp"
+            android:layout_marginTop="184dp"
             android:ems="10"
             android:hint="@string/nouveau_nom"
-            tools:layout_editor_absoluteX="24dp"
-            tools:layout_editor_absoluteY="177dp"
-            tools:ignore="MissingConstraints"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editmdp"
             android:layout_width="210dp"
             android:layout_height="49dp"
+            android:layout_marginTop="380dp"
             android:ems="10"
             android:hint="@string/nouveau_mot_de_passe"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="100dp"
-            tools:layout_editor_absoluteY="375dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editmdpconfirm"
             android:layout_width="210dp"
             android:layout_height="51dp"
+            android:layout_marginTop="480dp"
             android:ems="10"
             android:hint="@string/confirmation_mot_de_passe"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="100dp"
-            tools:layout_editor_absoluteY="476dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/imagelogo"
             android:layout_width="151dp"
             android:layout_height="141dp"
+            android:layout_marginTop="24dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:layout_editor_absoluteX="130dp"
-            tools:layout_editor_absoluteY="16dp"
-            tools:ignore="MissingConstraints"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/bntconfirmer"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="612dp"
             android:text="@string/confirmer"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="613dp"
-            tools:ignore="MissingConstraints,NotSibling"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/bntcv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="552dp"
             android:text="@string/importer_le_cv"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="108dp"
-            tools:layout_editor_absoluteY="544dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,NotSibling" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

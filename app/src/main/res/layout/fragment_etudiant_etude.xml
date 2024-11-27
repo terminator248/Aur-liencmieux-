@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".etudiant_etude">
 
     <!-- TODO: Update blank fragment layout -->
@@ -10,76 +11,85 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <Button
-            android:id="@+id/confirmer3"
-            android:layout_width="157dp"
-            android:layout_height="110dp"
-            android:layout_centerHorizontal="true"
-            android:background="#FF6200EE"
-            android:padding="10dp"
-            android:text="Accueil"
+            android:id="@+id/bouton_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="284dp"
+            android:layout_marginLeft="284dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bouton_rond"
+            android:text="Profil"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="249dp"
-            tools:layout_editor_absoluteY="-6dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
-            android:id="@+id/Confirmer"
+            android:id="@+id/Etude3"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="524dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Etude 3"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="562dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
-            android:id="@+id/confirmer"
+            android:id="@+id/Etude1"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="348dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Etude 1"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="313dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
-            android:id="@+id/confirmer2"
+            android:id="@+id/Etude2"
             android:layout_width="309dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="436dp"
             android:background="#FF6200EE"
             android:padding="10dp"
             android:text="Etude 2"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="436dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <ImageView
 
             android:layout_width="151dp"
             android:layout_height="141dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="2dp"
-            tools:layout_editor_absoluteY="1dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
+    
 </FrameLayout>
