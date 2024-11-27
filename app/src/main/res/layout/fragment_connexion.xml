@@ -59,7 +59,6 @@
             android:layout_marginTop="336dp"
             android:ems="10"
             android:hint="identifiant"
-            android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"

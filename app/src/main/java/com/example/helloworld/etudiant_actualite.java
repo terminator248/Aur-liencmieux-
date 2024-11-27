@@ -23,6 +23,8 @@ public class etudiant_actualite extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(etudiant_actualite.this, profil.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });

@@ -24,6 +24,8 @@ public class etude_en_cours_etudiant extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(etude_en_cours_etudiant.this, profil.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });

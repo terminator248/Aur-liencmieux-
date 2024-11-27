@@ -24,6 +24,8 @@ public class Etudiant extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(Etudiant.this, profil.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });
@@ -33,6 +35,8 @@ public class Etudiant extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(Etudiant.this, etudiant_etude.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });
@@ -42,6 +46,8 @@ public class Etudiant extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(Etudiant.this, etude_en_cours_etudiant.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });
@@ -51,6 +57,8 @@ public class Etudiant extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(Etudiant.this, etudiant_actualite.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });
