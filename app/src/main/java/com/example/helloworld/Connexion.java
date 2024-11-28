@@ -50,6 +50,7 @@ public class Connexion extends AppCompatActivity {
         BntConfirmer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String inputTextID = editID.getText().toString();
                 Intent startInscriptionActivity = new Intent(Connexion.this, Etudiant.class);
                 startInscriptionActivity.putExtra("ID:Connexion->Profil", inputTextID);
                 startActivity(startInscriptionActivity);

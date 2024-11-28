@@ -13,10 +13,10 @@
 
         <TextView
             android:id="@+id/nom"
-            android:layout_width="32dp"
-            android:layout_height="22dp"
-            android:layout_marginStart="188dp"
-            android:layout_marginLeft="188dp"
+            android:layout_width="70dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginLeft="168dp"
             android:layout_marginTop="224dp"
             android:text="Nom"
             android:textColor="@color/black"
