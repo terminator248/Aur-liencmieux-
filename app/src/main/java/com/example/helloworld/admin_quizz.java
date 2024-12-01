@@ -18,11 +18,14 @@ public class admin_quizz extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_admin_quizz);
-        Button BntAccueil = findViewById(R.id.button);
-        BntAccueil.setOnClickListener(new View.OnClickListener() {
+
+        Button BntProfil = findViewById(R.id.bouton_profil1);
+        BntProfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startConnexionActivity = new Intent(admin_quizz.this, accueil.class);
+                Intent startConnexionActivity = new Intent(admin_quizz.this, profil.class);
+                String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
+                startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
                 startActivity(startConnexionActivity);
             }
         });

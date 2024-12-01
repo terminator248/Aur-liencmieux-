@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Administrateur">
 
     <!-- TODO: Update blank fragment layout -->
@@ -15,83 +16,94 @@
             android:id="@+id/imagelogo"
             android:layout_width="98dp"
             android:layout_height="87dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="36dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
-        <Button
-            android:id="@+id/présentation"
-            android:layout_width="272dp"
-            android:layout_height="57dp"
-            android:text="Présentation de la junior"
-            android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="69dp"
-            tools:layout_editor_absoluteY="173dp" />
 
         <Button
             android:id="@+id/quizz"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="262dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="500dp"
             android:text="Quizz"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="161dp"
-            tools:layout_editor_absoluteY="516dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/etudes_postées"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="262dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="424dp"
             android:text="Etudes postées"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="123dp"
-            tools:layout_editor_absoluteY="425dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/etudes_en_cours"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="265dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="360dp"
             android:text="Etudes en cours"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="119dp"
-            tools:layout_editor_absoluteY="341dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/actualites"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="265dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="280dp"
             android:text="Actualités"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="142dp"
-            tools:layout_editor_absoluteY="261dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/poster_etude"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="262dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="580dp"
             android:text="Poster une étude"
             android:textColor="#FFFFFF"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="114dp"
-            tools:layout_editor_absoluteY="604dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
             android:id="@+id/bouton_profil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
             android:background="@drawable/bouton_rond"
             android:text="Profil"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints"
-            tools:layout_editor_absoluteX="279dp"
-            tools:layout_editor_absoluteY="46dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

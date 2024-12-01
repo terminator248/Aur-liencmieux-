@@ -1,54 +1,41 @@
 package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Room;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.example.helloworld.database.AppDatabase;
-import com.example.helloworld.database_dao.UserDao;
-import com.example.helloworld.model.User;
+
+import com.example.helloworld.Model.User;
+
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
-//
+
+    private HashMap<String, User> DataBase = new HashMap<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Création de la BDD
+        User admin = new User("admin", "admin", "admin","admin", true);
+        DataBase.put(admin.getEmail(), admin);
 
         Button BntLancement = findViewById(R.id.bntlancement);
         BntLancement.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startConnexionActivity = new Intent(MainActivity.this, accueil.class);
+
+                // Envoi les données de la base de données
+                startConnexionActivity.putExtra("ID:Data", DataBase);
+
                 startActivity(startConnexionActivity);
             }
         });
-
-//        Button BntBDD = findViewById(R.id.creationbdd);
-//        BntBDD.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                AppDatabase db = Room.databaseBuilder(getApplicationContext(),
-//                        AppDatabase.class, "MyDatabase.db").build();
-//                Log.w("UserDaoTes", "starting insertUser");
-//                UserDao userDao = db.userDao();
-//                User user = new User();
-//                user.aId = 1;
-//                user.aId = "admin";
-//                user.aPassword = "admin";
-//                user.aPermission = true;
-//                userDao.insert(user);
-//                String ID = userDao.getaId("admin").toString();
-//
-//                TextView Testsf = findViewById(R.id.Testsf);
-//                Testsf.setText(ID);
-//            }
-//        });
-    }  // Ici on ferme la méthode onCreate()
+    }
 }  // Ici on ferme la classe MainActivity

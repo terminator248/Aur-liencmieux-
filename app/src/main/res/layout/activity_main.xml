@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <Button
         android:id="@+id/bntlancement"
@@ -19,27 +20,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="NotSibling" />
-
-    <Button
-        android:id="@+id/creationbdd"
-        android:layout_width="309dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="Créer BDD"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="613dp"
-        tools:ignore="MissingConstraints,NotSibling"/>
-
-    <TextView
-        android:id="@+id/Testsf"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="GetID"
-        android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="569dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

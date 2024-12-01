@@ -18,78 +18,94 @@
             android:layout_width="152dp"
             android:layout_height="190dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="248dp"
             android:background="#FFFFFF"
             android:padding="10dp"
             android:text="Quizz 1"
             android:textColor="#000000"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="258dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="152dp"
             android:layout_height="190dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="476dp"
             android:background="#FFFFFF"
             android:padding="10dp"
             android:text="Quizz 3"
             android:textColor="#000000"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="478dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="152dp"
             android:layout_height="190dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="476dp"
             android:background="#FFFFFF"
             android:padding="10dp"
             android:text="Quizz 4"
             android:textColor="#000000"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="227dp"
-            tools:layout_editor_absoluteY="478dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="152dp"
             android:layout_height="190dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="248dp"
             android:background="#FFFFFF"
             android:padding="10dp"
             android:text="Quizz 2"
             android:textColor="#000000"
             android:textSize="18sp"
-            tools:ignore="HardcodedText,MissingConstraints,NotSibling"
-            tools:layout_editor_absoluteX="227dp"
-            tools:layout_editor_absoluteY="258dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,NotSibling" />
 
         <ImageView
             android:layout_width="118dp"
             android:layout_height="104dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@drawable/logoandroid"
             android:src="@drawable/logoandroid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="114dp"
-            android:layout_height="96dp"
-            android:layout_centerHorizontal="true"
-            android:background="#FFFFFF"
-            android:padding="10dp"
-            android:text="accueil"
-            android:textColor="#000000"
+            android:id="@+id/bouton_profil1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bouton_rond"
+            android:text="Profil"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,NotSibling" />
+            tools:ignore="HardcodedText,MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
