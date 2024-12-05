@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         User admin = new User("admin", "admin", "admin","admin", true);
         DataBase.put(admin.getEmail(), admin);
 
+        // Bouton lancement
         Button BntLancement = findViewById(R.id.bntlancement);
         BntLancement.setOnClickListener(new View.OnClickListener() {
             @Override

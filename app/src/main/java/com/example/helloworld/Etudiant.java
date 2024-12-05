@@ -11,6 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.helloworld.Model.User;
+
+import java.util.HashMap;
+
 
 public class Etudiant extends AppCompatActivity {
 
@@ -19,6 +23,9 @@ public class Etudiant extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_etudiant);
 
+        // Récupérer les données de la base de données
+        HashMap<String, User> DataBase = (HashMap<String, User>) getIntent().getSerializableExtra("ID:Data");
+
         Button BntProfil = findViewById(R.id.bouton_profil);
         BntProfil.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +33,7 @@ public class Etudiant extends AppCompatActivity {
                 Intent startConnexionActivity = new Intent(Etudiant.this, profil.class);
                 String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
                 startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
+                startConnexionActivity.putExtra("ID:Data", DataBase);
                 startActivity(startConnexionActivity);
             }
         });
@@ -37,6 +45,7 @@ public class Etudiant extends AppCompatActivity {
                 Intent startConnexionActivity = new Intent(Etudiant.this, etudiant_etude.class);
                 String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
                 startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
+                startConnexionActivity.putExtra("ID:Data", DataBase);
                 startActivity(startConnexionActivity);
             }
         });
@@ -48,6 +57,7 @@ public class Etudiant extends AppCompatActivity {
                 Intent startConnexionActivity = new Intent(Etudiant.this, etude_en_cours_etudiant.class);
                 String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
                 startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
+                startConnexionActivity.putExtra("ID:Data", DataBase);
                 startActivity(startConnexionActivity);
             }
         });
@@ -59,6 +69,7 @@ public class Etudiant extends AppCompatActivity {
                 Intent startConnexionActivity = new Intent(Etudiant.this, etudiant_actualite.class);
                 String rNom = getIntent().getStringExtra("ID:Connexion->Profil");
                 startConnexionActivity.putExtra("ID:Connexion->Profil", rNom);
+                startConnexionActivity.putExtra("ID:Data", DataBase);
                 startActivity(startConnexionActivity);
             }
         });
